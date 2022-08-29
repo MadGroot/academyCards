@@ -1,0 +1,32 @@
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+div a {
+    margin-right: 24px;
+}
+
+.all, .pro, .mark, .desi {
+    padding: 16px 36px;
+    border-radius: 34px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.all {
+    border: 1px solid rgba(255, 175, 22, 0.3);
+    background: rgba(255, 175, 22, 0.1);
+    color: #FFAF16;
+}
+
+.pro, .mark, .desi {
+    border: 1px solid #E8E8E8;
+    color: #2E2A39;;
+}
+img {
+    margin-right: 10px;
+}
