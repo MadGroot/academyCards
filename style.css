@@ -1,3 +1,12 @@
+   
+   /*  six cards */
+
+   .mainSec {
+      flex-wrap: wrap;
+    }
+    
+/* slider */
+
     .sliderCard {
       background-color: #FFF1D6;
       border-radius: 20px;

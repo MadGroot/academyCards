@@ -1,0 +1,81 @@
+.gasqrole {
+    padding: 60px 40px;
+    background: #FFAF16;
+    border-radius: 50%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    transform: rotate(-15deg);
+}
+
+
+
+.sliderCard {
+    background-color: #FFF1D6;
+    border-radius: 20px;
+    width: 413px;
+    height: 456px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.sliderBox {
+    background-color: white;
+    width: 393px;
+    height: 173px;
+    border-radius: 18px;
+    margin-left: 10px;
+    
+}
+.sliderImg {
+   margin-top: 24px; 
+   position: relative;
+   justify-content: center;
+   margin-left: 100px;
+}
+.sliderBox h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #2E2A39;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.sliderBox .prof {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #2E2A39B7;
+    padding-bottom: 24px;
+    padding-left: 20px;
+}
+.slCourses {
+    display: flex;
+    padding-left: 20px;
+}
+.slCourses p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #2E2A39;
+    border: 1px solid #E6E6E6;
+    border-radius: 46px;
+    padding: 16px 20px 16px 16px;
+}
+.clck, .many, .slCourses p:first-child{
+    margin-right: 8px;
+}
+.mainSec {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
