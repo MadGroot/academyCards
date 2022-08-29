@@ -1,8 +1,4 @@
-.mainSec {
-    flex-wrap: wrap;
-  }
-  
-  .sliderCard {
+    .sliderCard {
       background-color: #FFF1D6;
       border-radius: 20px;
       width: 413px;
@@ -32,6 +28,7 @@
       color: #2E2A39;
       margin-bottom: 8px;
       padding-left: 20px;
+      padding-top: 20px;
   }
   .sliderBox .prof {
       font-size: 14px;
