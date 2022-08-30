@@ -1,5 +1,7 @@
 .gasqrole {
-    padding: 60px 40px;
+    padding-top: 45px;
+    width: 120px;
+    height: 120px;
     background: #FFAF16;
     border-radius: 50%;
     font-style: normal;
@@ -9,7 +11,6 @@
     color: #FFFFFF;
     transform: rotate(-15deg);
 }
-
 
 
 .sliderCard {

@@ -11,14 +11,14 @@
 </head>
 <body>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators visually-hidden">
+        <!-- <div class="carousel-indicators visually-hidden">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-        </div>
+        </div> -->
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="sliderCard d-block">
@@ -99,12 +99,46 @@
               </div>
           </div>
         </div>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="gasqrole carousel-control" aria-hidden="true">გასქროლე</span>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="gasqrole carousel-control-prev-icon" aria-hidden="true">გასქროლე</span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="gasqrolebtn carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="gasqrole carousel-control-next-icon visually-hidden" aria-hidden="true">გასქროლე</span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
 
+
+
+
+<!-- owl cdn js -->
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+      <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive: {
+          0:{
+            items:1,
+            dots:true
+        },
+          600:{
+            items:3
+        },
+          1000:{
+            items:5
+        }
+    }
+})
+      </script>
 
 
 
