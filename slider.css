@@ -74,9 +74,19 @@
     justify-content: center;
 }
 
-
-
-
-
+#to-show button {
+    display: none;  
+}
+#to-show{
+    width: 200px;
+    height: 200px;
+}
+#to-hover{
+    width: 200px;
+    height: 200px;
+}
+#to-show:hover>button{
+    display: block;
+}
 
 
